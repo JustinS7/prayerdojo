@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(37, 37, 37);
+  font-family: "Fira Sans", sans-serif;
+  line-height: 3px;
+}
+
+#btn1 {
+  background-color: rgb(39, 39, 39);
+  border: none;
+  border-radius: 40%;
+  font-size: 10px;
+}
+
+.dojoh1 {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.dojoh2 {
+  border: 2px solid white;
+  padding: 20px 40px;
+  font-size: 100px;
+}
+
+.dojomain {
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.fas {
+  margin-top: 15px;
+  font-size: 33px;
+}
+
+.dojomain h3 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.dojomain p {
+  margin-top: 50px;
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.dojomain a {
+  margin-top: 49px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 2rem 2rem;
+}
+
+.minutes {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.minutes a {
+  margin: 29px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#countdown {
+  color: white;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#nextprayer {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
